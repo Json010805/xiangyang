@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "MyBlog" 
+}

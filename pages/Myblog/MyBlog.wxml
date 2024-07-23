@@ -1,0 +1,33 @@
+<!--pages/MyBlog.wxml-->
+<view class="body">  
+  <view class="container">  
+  <view class="header">  
+    <text class="title">{{title}}</text>  
+  </view>  
+  <view class="content">  
+  <view class="content_one">
+    <view class="card">  
+      <view class="card-text">
+        <view class="post-title">{{name}}</view>  
+        <view class="post-date">破壳日期：{{ Date }}</view>  
+        <view class="post-content">  
+          <text>{{Personal_signature}}</text>  
+        </view>  
+      </view>
+      <view class="card-img">
+      <!-- <img src="{{imagePatch}}" class="avatar"/> -->
+      <image src="{{imagePatch}}" mode=""  class="avatar"/>
+      </view>
+    </view>  
+    </view>
+    <view class="content-two">
+      <view class="post">  
+      <view class="post-title">文章标题二</view>  
+      <view class="post-date">发布日期：2023-04-02</view>  
+      <view class="post-content">  
+        <text>这里是文章二的内容，可以包含多行文本...</text>  
+      </view>  
+    </view> </view> 
+  </view>  
+</view>
+</view>

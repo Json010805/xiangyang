@@ -1,0 +1,8 @@
+<view class="body">  
+  <view class="wedding-top">
+      <text>Daixy</text>
+  </view>
+  <view class="bottom_btn">
+  <button class="custom-button" bind:tap="onButtonClick">点击进入</button>
+  </view>
+</view>

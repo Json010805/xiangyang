@@ -1,0 +1,53 @@
+/* pages/index/index.wxss */  
+.body {  
+  /* 线性渐变，从顶部到底部，从蓝色渐变到红色 */  
+  background-image: linear-gradient(to bottom, rgb(45, 154, 218), white);  
+  /* 确保容器有足够的尺寸以显示渐变 */  
+  height: 100vh; /* 或你需要的任何高度 */  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  /* 文本颜色或其他样式 */  
+  color: white;  
+  font-size: 20px;  
+}
+.wedding-top{
+  position: absolute;
+  top: 20vh;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes zoomInOut {  
+  0% {  
+    transform: scale(1); /* 初始大小 */  
+  }  
+  50% {  
+    transform: scale(1.5); /* 放大到1.5倍 */  
+  }  
+  100% {  
+    transform: scale(1); /* 回到初始大小 */  
+  }  
+}
+.wedding-top text{
+  font-size: 50px;
+  font-weight: bold;
+  color: aliceblue;
+  animation: zoomInOut 3s infinite; /* 应用动画，持续时间为2秒，无限次重复 */  
+}
+.bottom_btn{
+  position: absolute;
+  bottom: 20%;
+  right: 25%;
+}
+.custom-button {  
+  background-image: linear-gradient(to bottom, rgb(45, 154, 218), white);  
+  /* background-color: rgb(240, 195, 208);  */
+  color: white; /* 文字颜色 */  
+  border-radius: 5px; /* 边框圆角 */  
+  padding: 10px 20px; /* 内边距 */  
+  font-size: 20px; /* 字体大小 */  
+  border: none; /* 去除边框 */  
+}  
